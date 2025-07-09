@@ -45,8 +45,8 @@ news-classifier-project/
 │   ├── ag_news_test.csv
 │   └── bbc-news-data.csv
 ├── notebooks/
-│   ├── 01_AG_News_Classifier.ipynb
-│   └── 02_BBC_News_Classifier.ipynb
+│   ├── AGnews_Classifier.ipynb
+│   └── BBCnews_Classifier.ipynb
 ```
 
 ---
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 2. Open either notebook:
 
 ```bash
-jupyter notebook notebooks/01_AG_News_Classifier.ipynb
+jupyter notebook notebooks/AGnews_Classifier.ipynb
 ```
 
 3. Run all cells from top to bottom. Each notebook is **self-contained** and includes:
