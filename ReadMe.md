@@ -1,6 +1,8 @@
 ## 📰 News Classifier using TF-IDF + ML
 
-This is a simple foundation to learn machine learning, based on how news website can understand and categorize articles. This project pulls back the curtain, showing you how to build a news classifier from scratch. In this project we use a classic but powerful technique called TF-IDF (i recommend you to watch this video for a simple explanation, if you want to know the theory behind the vectorization: https://www.youtube.com/watch?v=vZAXpvHhQow) paired with Logistic Regression to teach our model to distinguish between different news topics.
+This is a simple foundation to learn machine learning, based on how news website can understand and categorize articles. This project pulls back the curtain, showing you how to build a news classifier from scratch. In this project we use a classic but powerful technique called TF-IDF paired with Logistic Regression to teach our model to distinguish between different news topics.
+
+(i recommend you to watch this video for a simple explanation, if you want to know the theory behind the vectorization: https://www.youtube.com/watch?v=vZAXpvHhQow)
 
 This project demonstrates a **simple but powerful text classification pipeline** using **TF-IDF vectorization** and **machine learning models** (Logistic Regression). Two real-world news datasets are used:
 
