@@ -1,17 +1,22 @@
-Awesome! Here's a clean and professional `README.md` tailored for your **News Classifier Project** (AG News + BBC News). After this, I’ll help format your notebooks so they’re ready for GitHub.
-
----
-
 ## 📰 News Classifier using TF-IDF + ML
+
+This is a simple foundation to learn machine learning, based on how news website can understand and categorize articles. This project pulls back the curtain, showing you how to build a news classifier from scratch. In this project we use a classic but powerful technique called TF-IDF (i recommend you to watch this video for a simple explanation, if you want to know the theory behind the vectorization: https://www.youtube.com/watch?v=vZAXpvHhQow) paired with Logistic Regression to teach our model to distinguish between different news topics.
 
 This project demonstrates a **simple but powerful text classification pipeline** using **TF-IDF vectorization** and **machine learning models** (Logistic Regression). Two real-world news datasets are used:
 
 - **AG News Dataset** (4 classes)
 - **BBC News Dataset** (5 classes)
 
+In this project we use 2 different datasets to implement two different examples/notebooks for AG News it's a kaggle-style dataset (which means it has been cleaned for open source projects like this!) which we would implement a Multinomial model and for BBC News, a raw dataset that we have to preproccess/clean we use a Logistic Regression approach.
+
+**kaggle links!**
+
+- https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
+- https://www.kaggle.com/datasets/hgultekin/bbcnewsarchive
+
 ---
 
-### 🧠 What You’ll Learn
+### What You’ll Learn!
 
 - How to clean and prepare raw text data
 - Combine text features like title + content
@@ -46,13 +51,24 @@ news-classifier-project/
 
 ---
 
-### 🚀 How to Run
+### How to Run
 
 1. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+### (Libraries Used)
+
+- `pandas`
+- `scikit-learn`
+- `seaborn`
+- `matplotlib`
+
+---
 
 2. Open either notebook:
 
@@ -69,7 +85,7 @@ jupyter notebook notebooks/01_AG_News_Classifier.ipynb
 
 ---
 
-### ✅ Model Performance
+### My Model Performance
 
 #### AG News — Logistic Regression
 
@@ -89,30 +105,9 @@ jupyter notebook notebooks/01_AG_News_Classifier.ipynb
 
 > Final models use `TfidfVectorizer(stop_words='english', max_features=5000)` + `LogisticRegression(max_iter=1000)`
 
----
-
-### 🧱 Level 1 Portfolio Goal
-
-This project fulfills the goal for Level 1: **"Build skills and small proof-of-concepts using real-world datasets and classic ML."**
-
----
-
-### 📚 Libraries Used
-
-- `pandas`
-- `scikit-learn`
-- `seaborn`
-- `matplotlib`
-
----
-
 ### 📌 Notes
 
 - The AG News file was manually cleaned to match expected column names.
 - The BBC dataset required preprocessing to handle messy text content and merge title+content.
 
----
-
-Would you like this `README.md` saved into your folder structure now?
-
-Once confirmed, I’ll proceed to help you clean up and format your two notebooks (`AG` and `BBC`) step by step.
+Thanks!
