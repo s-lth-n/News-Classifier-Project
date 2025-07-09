@@ -26,7 +26,7 @@ In this project we use 2 different datasets to implement two different examples/
 
 ---
 
-### 🗂️ Dataset Overview
+### a Dataset Overview
 
 | Dataset  | Classes | Format | Source                    |
 | -------- | ------- | ------ | ------------------------- |
@@ -35,7 +35,7 @@ In this project we use 2 different datasets to implement two different examples/
 
 ---
 
-### 📁 Project Structure
+### The Project Structure
 
 ```
 news-classifier-project/
@@ -59,16 +59,12 @@ news-classifier-project/
 pip install -r requirements.txt
 ```
 
----
-
 ### (Libraries Used)
 
 - `pandas`
 - `scikit-learn`
 - `seaborn`
 - `matplotlib`
-
----
 
 2. Open either notebook:
 
