@@ -1,7 +1,3 @@
-Awesome! Here's a clean and professional `README.md` tailored for your **News Classifier Project** (AG News + BBC News). After this, I’ll help format your notebooks so they’re ready for GitHub.
-
----
-
 ## 📰 News Classifier using TF-IDF + ML
 
 This project demonstrates a **simple but powerful text classification pipeline** using **TF-IDF vectorization** and **machine learning models** (Logistic Regression). Two real-world news datasets are used:
